@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!--Meta Tags-->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Title-->
+    <title>Arthur Martins</title>
+    <!--Fonts-->
+    <link rel="stylesheet" href="css/extends.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet" />
+</head>
+
+<body>
+    <!--Nav Bar-->
+    <nav class="navbar">
+        <div class="navbar__content max-width mb-0">
+            <a href="/">
+                <img src="assets/Martins.png" alt="Martins">
+            </a>
+            <ul class="navbar__links">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#footer">Contact</a></li>
+            </ul>
+            <div class="navbar__mobile">
+                <img src="assets/menu.svg" alt="menu" class="burguer">
+                <ul class="mobile__links">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#footer">Contact</a></li>
+            </div>
+        </div>
+    </nav>
+
+    <!--Header-->
+    <header id="header" class="max-width">
+        <div class="header__left">
+            <h1>Hi! I'm Arthur Martins, a Fullstack Developer</h1>
+            <p>
+                Fullstack Developer learning about various programming languages. I am currently studying at the
+                University of Brasília (UnB) and I'm learning Python, however, I have experience with other languages as
+                well.
+            </p>
+            <a href="#about" class="btn btn-primary">Learn more!</a>
+        </div>
+        <div class="header__right">
+            <div class="header__image">
+                <img src="assets/foto.png" alt="Arthur" class="arthur">
+                <img src="assets/abstract.svg" alt="background" class="background">
+            </div>
+        </div>
+    </header>
+
+    <!--About-->
+    <section id="about" class="about max-width">
+        <div class="about__left">
+            <h2 class="secondary-title">More about me.</h2>
+            <p>
+                Some of my social medias if you want to contact me to anything!
+            </p>
+            <ul>
+                <li><a href="https://github.com/thetrulyvoid" target="_blank"><img src="assets/github.png" alt="GitHub"></a></li>
+                <li><a href="https://www.linkedin.com/in/arthur-martins-71a608230/" target="_blank"><img src="assets/linkedin.png" alt="LinkedIn"></a></li>
+                <li><a href="https://www.instagram.com/mxrtins.js" target="_blank"><img src="assets/instagram.png" alt="Instagram"></a></li>
+            </ul>
+        </div>
+        <div class="about__right">
+            <h3 class="tertiary-title mb-m">
+                Fullstack developer with a strong thirst for learning.
+            </h3>
+            <p>
+                Hello, I am Arthur Martins, a full-stack developer passionate about technology and creative solutions.
+                With one year of experience, I have worked with various technologies and platforms to create robust and
+                scalable solutions that meet clients' needs.
+            </p>
+            <p>
+                I love the challenge of finding innovative and creative solutions to complex problems, and I am always
+                seeking to learn and grow as a professional.
+            </p>
+        </div>
+    </section>
+
+    <!--Skills-->
+    <section id="skills" class="skills">
+        <div class="skills__content max-width">
+            <h2 class="tertiary-title">My Skills</h2>
+            <p class="description">
+                Here are some of the languages I am proficient in or have at least studied in detail and that I plan to
+                further improve in the future.
+            </p>
+            <ul>
+                <li class="skills__item">
+                    <div class="image-container">
+                        <img src="assets/python.png" alt="Python">
+                    </div>
+                    <h3>Python</h3>
+                    <p>
+                        Python is a versatile and easy-to-read programming language. It is widely used in web
+                        development, data analysis, and artificial intelligence.
+                    </p>
+                </li>
+                <li class="skills__item">
+                    <div class="image-container">
+                        <img src="assets/javascript.png" alt="Javascript" />
+                    </div>
+                    <h3>Javascript</h3>
+                    <p>
+                        JavaScript is a dynamic programming language essential for creating interactive web
+                        applications. It enables developers to implement complex features on web pages, enhancing user
+                        experience.
+                    </p>
+                </li>
+                <li class="skills__item">
+                    <div class="image-container">
+                        <img src="assets/mysql.png" alt="MySQL" />
+                    </div>
+                    <h3>MySQL</h3>
+                    <p>
+                        MySQL is an open-source relational database management system that allows for efficient data
+                        storage and retrieval. It is popular for web applications and supports large datasets with high
+                        performance.
+                    </p>
+                </li>
+                <li class="skills__item">
+                    <div class="image-container">
+                        <img src="assets/c.png" alt="C" />
+                    </div>
+                    <h3>Language C</h3>
+                    <p>
+                        C is a powerful, low-level programming language known for its performance and efficiency. It
+                        serves as the foundation for many modern languages and is widely used in system programming and
+                        embedded systems.
+                    </p>
+                </li>
+            </ul>
+        </div>
+    </section>
+
+    <!--Projects-->
+    <section id="projects" class="projects max-width">
+        <div class="projects__content">
+            <h2 class="secondary-title">My Projects and Experience</h2>
+            <p>
+                From abstract ideas to successful projects and experiences, here are some of my most recent works.
+            </p>
+        </div>
+        <ul>
+            <li>
+                <div class="image">
+                    <img src="assets/pokemon.jpg" alt="Pokemon">
+                </div>
+                <div class="projects__info">
+                    <h3 class="tertiary-title">
+                        Pokemon Battle in Terminal
+                    </h3>
+                    <p>
+                        A game that simulates a Pokémon battle in the terminal. Made entirely in C for the Computer
+                        Algorithms and Programming course.
+                    </p>
+                    <a href="https://github.com/thetrulyvoid/pokemon-battle-in-c" target="_blank">See more &rarr;</a>
+                </div>
+            </li>
+            <li class="projects__reversed-list">
+                <div class="image">
+                    <img src="assets/task-manager.png" alt="game list" />
+                </div>
+                <div class="projects__info">
+                    <h3 class="tertiary-title">
+                        Game List in Text Editor
+                    </h3>
+                    <p>
+                        A project made in C just to test the language's limitations. It's a program that creates a .txt
+                        list of your favorite games. The program runs on the terminal in your machine.
+                    </p>
+                    <a href="https://github.com/thetrulyvoid/game-list" target="_blank">See more &rarr;</a>
+                </div>
+            </li>
+            <li>
+                <div class="image">
+                    <img src="assets/orcestra.webp" alt="orcestra" />
+                </div>
+                <div class="projects__info">
+                    <h3 class="tertiary-title">
+                        Trainee in Orc'estra Gameficação
+                    </h3>
+                    <p>
+                        I am a trainee at the junior company Orc'estra Gamificação, a junior enterprise from UnB that
+                        focuses on gamified solutions and software development.
+                    </p>
+                    <a href="https://orcestra.com.br/" target="_blank">See more &rarr;</a>
+                </div>
+            </li>
+        </ul>
+    </section>
+
+    <!--Footer-->
+    <footer id="footer">
+        <div class="footer__content max-width mb-0">
+            <h2 class="tertiary-title mb-s">Contact Me</h2>
+            <p class="mb-m">
+                If you want to contact me for anything, here's some of my social media, email and phone number, be direct.
+            </p>
+            <div class="footer__contact mb-m">
+                <span class="mb-m">arthurmss2006@gmail.com</span>
+                <span>+55 61 98268-9209</span>
+            </div>
+            <ul class="mb-l">
+                <li><a href="https://github.com/thetrulyvoid" target="_blank"><img src="assets/github.png" alt="GitHub"></a></li>
+                <li><a href="https://www.linkedin.com/in/arthur-martins-71a608230/" target="_blank"><img src="assets/linkedin.png" alt="LinkedIn"></a></li>
+                <li><a href="https://www.instagram.com/mxrtins.js" target="_blank"><img src="assets/instagram.png" alt="Instagram"></a></li>
+            </ul>
+            <p class="footer__copyright">
+                © 2024 Arthur Martins. Todos os direitos reservados.
+            </p>
+        </div>
+    </footer>
+
+    <!--Script-->
+    <script src="scripts/index.js"></script>
+</body>
+
+</html>
